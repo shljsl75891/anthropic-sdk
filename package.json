@@ -1,0 +1,23 @@
+{
+  "name": "claude-agent-sdk",
+  "version": "1.0.0",
+  "description": "The repository to learn about claude agent SDK and earn CCA-F",
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "bracketSpacing": false
+  },
+  "license": "ISC",
+  "author": "shljsl75891",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.233"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.12"
+  }
+}
