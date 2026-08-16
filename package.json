@@ -1,21 +1,26 @@
 {
   "name": "claude-agent-sdk",
   "version": "1.0.0",
-  "description": "The repository to learn about claude agent SDK and earn CCA-F",
+  "description": "The repository to learn about anthropic SDK and earn CCA-F",
   "prettier": {
     "arrowParens": "always",
     "singleQuote": true,
     "bracketSpacing": false
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shljsl75891/anthropic-sdk.git"
+  },
   "author": "shljsl75891",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/agent.ts"
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@anthropic-ai/claude-agent-sdk": "^0.3.233"
+    "@anthropic-ai/sdk": "^0.117.1",
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
